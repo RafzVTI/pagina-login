@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+/* Configs mobile first */
+
+:root {
+    --cor01: #732441;
+    --cor02: #933E65;
+    --cor03: #973D60;
+    --cor04: #285939;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
