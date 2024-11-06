@@ -29,12 +29,18 @@ div.formulario {
     margin: auto;
     color: white;
     padding: 25px;
+    border-radius: 20px 0px;
 }
 
 div.formulario > h1, p {
     text-align: center;
     padding-bottom: 10px;
 }
+
+section {
+    
+}
+
 
  input#limpar {
     margin: 10px;
