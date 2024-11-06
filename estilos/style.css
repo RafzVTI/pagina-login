@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/* Configs mobile first */
+
 
 :root {
     --cor01: #732441;
@@ -14,3 +14,29 @@
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+body {
+   
+}
+
+div.img {
+
+}
+
+div.formulario {
+    background-color: #973D60;
+    max-width: 50vw;
+    margin: auto;
+    color: white;
+    padding: 25px;
+}
+
+div.formulario > h1, p {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+ input#limpar {
+    margin: 10px;
+    padding: 2px;
+ }
