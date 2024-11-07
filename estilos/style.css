@@ -57,7 +57,7 @@ section > div.formulario {
     margin: auto;
     color: white;
     padding: 25px;
-    display: block;
+    display: none;
 }
 
 div.formulario > h1, p {
