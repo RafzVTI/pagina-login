@@ -28,6 +28,15 @@
         width: 70%;
         height: 100%;
     }
+
+    form > div.enviar > input[type=submit] {
+        margin: 40px 0px 10px 0px;
+    }
+
+    form > div.enviar > a.botao {
+        margin: 3px 0px;
+    }
+
 }
 
 @media  screen and (min-width: 922px) {
@@ -58,5 +67,13 @@
 
     div.formulario > p {
         font-size: 1.5em;
+    }
+
+    form > div.enviar > input[type=submit] {
+        margin: 40px 0px 10px 0px;
+    }
+
+    form > div.enviar > a.botao {
+        margin: 3px 0px;
     }
 }

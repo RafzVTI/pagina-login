@@ -75,7 +75,6 @@ form > div.campo {
     height: 40px;
     border-radius: 5px;
     margin: 5px 0px;
-    
     padding: 5px;
 }
 
@@ -83,10 +82,22 @@ form label {
     display: none;
 }
 
- input#limpar {
-    margin: 10px;
-    padding: 2px;
- }
+div.campo  span.material-icons {
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo > input {
+    font-size: 1em;
+    width: calc(100% - 50px);
+    transform: translateY(-11px);
+    height: 100%;
+    border: 0px;
+    padding: 4px;
+}
+
+
 
 
 form > div.enviar > input[type=submit] {
@@ -98,6 +109,7 @@ form > div.enviar > input[type=submit] {
     color: white;
     border: none;
     border-radius: 3px;
+    margin: 10px 0px;
 }
 
 form > div.enviar > input[type=submit]:hover {
@@ -116,7 +128,7 @@ form > div.enviar > a.botao {
     color: white;
     border: 1px solid var(--cor03);
     padding-top: 5px;
-    margin-top: 5px;
+    margin: 10px 0px;
 }
 
 form > div.enviar > a.botao:hover {
