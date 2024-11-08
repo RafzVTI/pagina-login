@@ -30,8 +30,8 @@ main {
 
 section.login {
     background-color: var(--cor04);
-    width: 250px;
-    height: 515px;
+    width: 350px;
+    height: 575px;
     border-radius: 20px;
     position: absolute;
     top: 50%;
@@ -111,7 +111,7 @@ form > div.enviar > input[type=submit] {
     color: white;
     border: none;
     border-radius: 3px;
-    margin: 10px 0px;
+    margin: 15px 0px;
 }
 
 form > div.enviar > input[type=submit]:hover {
